@@ -2,15 +2,19 @@
 ### Aleksandra Andreeva
 **Age:** 21 years old  
 **Location:** Batumi, Georgia  
-**Languages:** Russian, English  
+**Languages:** Russian, English
 
-#### Skills:
+### Contact me:
+- **Discord:** sandra44dev#7839
+- **E-mail:** sandra44dev@gmail.com
+
+### Skills:
 - HTML5, CSS, SASS, SCSS
 - JavaScript ES6
 - Node JS (bacisc)
 - Git
 - ESLint
 
-#### Contact me:
-- **Discord:** sandra44dev#7839
-- **E-mail:** sandra44dev@gmail.com
+### My projects:
+[Cozy House shelter site](https://rolling-scopes-school.github.io/sandra44dev-JSFE2022Q1/shelter/pages/main/)
+I've build this site with HTML, SCSS, native JS
