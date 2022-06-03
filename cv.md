@@ -1,9 +1,9 @@
 # Aleksandra Andreeva
 ### Junior frontend developer CV
 
-**Age:** 21 years old
-**Location:** Batumi, Georgia
-**Languages:** Russian, English
+**Age:** 21 years old  
+**Location:** Batumi, Georgia  
+**Languages:** Russian, English  
 
 #### Skills:
 - HTML5, CSS, SASS, SCSS
