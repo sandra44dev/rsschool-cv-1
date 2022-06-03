@@ -16,5 +16,5 @@
 - ESLint
 
 ### My projects:
-[Cozy House shelter site](https://rolling-scopes-school.github.io/sandra44dev-JSFE2022Q1/shelter/pages/main/)
+[Cozy House shelter site](https://rolling-scopes-school.github.io/sandra44dev-JSFE2022Q1/shelter/pages/main/)  
 I've build this site with HTML, SCSS, native JS
