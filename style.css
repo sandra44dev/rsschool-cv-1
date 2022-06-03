@@ -1,0 +1,68 @@
+@import url("./normalize.css");
+
+body {
+  color: #3c3c3c;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.wrapper {
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.header__title {
+  min-width: 310px;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.nav {}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  font-size: 15px;
+  line-height: 50px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.links__item {}
+
+.main {}
+
+.about {
+  display: flex;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  display: block;
+}
+
+.about__info {}
+
+.about__title {}
+
+.about__subtitle {}
+
+.skills {}
+
+.skills__title {}
+
+.skills__info {}
+
+.footer {}
