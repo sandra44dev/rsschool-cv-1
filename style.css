@@ -18,12 +18,13 @@ body {
   margin-top: 30px;
 }
 
-.header__title {
-  min-width: 310px;
+.title {
+  margin: 15px 0;
+  font-size: 20px;
 }
 
-.title {
-  font-size: 20px;
+.header__title {
+  min-width: 310px;
 }
 
 .nav {}
@@ -37,29 +38,51 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  user-select: none;
 }
 
-.links__item {}
+.links__item {
+  padding: 0 2%;
+  user-select: none;
+}
+
+.links__item:hover {
+  color: black;
+  text-shadow: 0px 0px 5px rgb(249, 195, 206);
+  cursor: pointer;
+}
+
+.links__item:active {
+  text-shadow: 0px 0px 2px rgb(255, 194, 206);
+}
 
 .main {}
 
 .about {
   display: flex;
+  margin: 17px 0 0 0;
+  background-color: rgb(245, 223, 220);
 }
 
 .avatar {
-  width: 200px;
-  height: 200px;
+  height: 300px;
   display: block;
 }
 
-.about__info {}
+.about__info {
+  width: 90%;
+  margin: 30px 5% 0 5%;
+}
 
 .about__title {}
 
 .about__subtitle {}
 
-.skills {}
+.about__text {}
+
+.skills {
+  padding: 17px 0 0 0;
+}
 
 .skills__title {}
 
