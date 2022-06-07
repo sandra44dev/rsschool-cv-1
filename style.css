@@ -80,6 +80,18 @@ body {
 
 .about__text {}
 
+.about__button {
+  text-decoration: none;
+  display: flex;
+  width: 150px;
+  height: 35px;
+  background-color: #f7f0f4;
+  color: rgb(25, 25, 25);
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
 .skills {
   padding: 17px 0 0 0;
 }
@@ -87,5 +99,26 @@ body {
 .skills__title {}
 
 .skills__info {}
+
+.projects-code-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects {
+  width: 45%;
+}
+
+.projects__title {}
+
+.title {}
+
+.skills__info {}
+
+.code {
+  width: 45%;
+}
+
+.code__title {}
 
 .footer {}
