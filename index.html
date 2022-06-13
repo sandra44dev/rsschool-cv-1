@@ -16,54 +16,87 @@
       <h1 class="header__title title">Junior Frontend developer CV</h1>
       <nav class="nav">
         <ul class="links">
-          <li class="links__item">About me</li>
-          <li class="links__item">Skills & Education</li>
-          <li class="links__item">Projects</li>
-          <li class="links__item">Contacts</li>
+          <li class="links__item"><a href='#about'>About me</a></li>
+          <li class="links__item"><a href='#skills'>Skills & Education</a></li>
+          <li class="links__item"><a href='#projects'>Projects</a></li>
+          <li class="links__item"><a href='#footer'>Contacts</a></li>
         </ul>
       </nav>
     </header>
 
     <main class="main">
 
-      <div class="about">
+      <div class="about" id='about'>
         <img src="./img/avatar.jpg" alt="avatar" class="avatar">
         <div class="about__info">
           <h2 class="about__title title">Aleksandra Andreeva</h2>
           <span class="about__subtitle">Junior Frontend Developer</span>
-          <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum eum eaque asperiores?
-            Velit odio quasi eius eum at voluptatum assumenda blanditiis veritatis, error perferendis totam magni.</p>
-          <a href="#" class="about__button">Contact me</a>
+          <p class="about__text">
+            Age: 21 <br>
+            Location: Batumi, Georgia <br>
+            English: B1 - B2 <br>
+            <br>
+            Looking forward to hear from you!
+          </p>
+          <a href="#footer" class="about__button">Contact me</a>
         </div>
       </div>
 
-      <div class="skills">
+      <div class="skills" id='skills'>
         <h2 class="skills__title title">Skills & Education</h2>
-        <p class="skills__info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum eum eaque asperiores?
-          Velit odio quasi eius eum at voluptatum assumenda blanditiis veritatis, error perferendis totam magni, minus
-          cupiditate distinctio nostrum.</p>
+        <p class="skills__info">
+          At the moment I'am studying at The Rolling Scopes School <a class='school-link'
+            href='https://rs.school/'>(learn more)</a>.
+          All the materials and tasks I get there, I find really helpful. And challenging too. I don't feel confident
+          about my skills yet, but I feel that I'm making progress, and I'm hopeful about my future after studies.
+          Here is what I've learned so far:
+          <br><br>
+          Technologies: HTML5, CSS, SASS, JS ES6<br><br>
+          Tools: Chrome DevTools, GitHub, WebPack<br>
+        </p>
       </div>
 
       <div class="projects-code-wrapper">
 
-        <div class="projects">
+        <div class="projects" id='projects'>
           <h2 class="projects__title title">My projects</h2>
           <p class="skills__info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum eum eaque asperiores?
             Velit odio quasi eius eum at voluptatum assumenda blanditiis veritatis, error perferendis totam magni, minus
             cupiditate distinctio nostrum.</p>
         </div>
 
-        <div class="code">
+        <div class="code" id='code'>
           <h2 class="code__title title">Code example</h2>
-          <code>dasdkaslk</code>
+          <pre>
+          <code>   
+function findMissing(arr1, arr2) {
+  let longArr = [];
+  let shortArr = [];
+            
+  if (arr1.length > arr2.length){
+    longArr = arr1;
+    shortArr = arr2;
+  } else {
+  longArr = arr1;
+  shortArr = arr2;
+  }
+            
+  shortArr.map((number) => {
+    longArr.splice(longArr.indexOf(number), 1);
+  })
+            
+  return longArr[0];
+}       </code>
+        </pre>
         </div>
 
       </div>
 
     </main>
 
-    <footer class="footer">
-      footer
+    <footer class="footer" id='footer'>
+      <a href='https://rs.school/js'><img src="./img/rs-logo.svg" alt="RS School" class='logo'></a>
+      <p>(c) 2022 <a href='https://github.com/sandra44dev'> sandra44dev </a></p>
     </footer>
 
   </div>
