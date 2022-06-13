@@ -1,2 +1,2 @@
-https://sandra44dev.github.io/rsschool-cv/cv  
-**CV deploy**
+https://sandra44dev.github.io/rsschool-cv/ - html/css
+https://sandra44dev.github.io/rsschool-cv/cv - markdowm
