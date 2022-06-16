@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="./style.css">
+  <title>CV | Andreeva Alekdandra</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <header class="header">
+      <h1 class="header__title title">Junior Frontend developer CV</h1>
+      <nav class="nav">
+        <ul class="links">
+          <li class="links__item"><a href='#about'>About me</a></li>
+          <li class="links__item"><a href='#skills'>Skills & Education</a></li>
+          <li class="links__item"><a href='#projects'>Projects</a></li>
+          <li class="links__item"><a href='#footer'>Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+
+      <div class="about" id='about'>
+        <img src="./img/avatar.jpg" alt="avatar" class="avatar">
+        <div class="about__info">
+          <h2 class="about__title title">Aleksandra Andreeva</h2>
+          <span class="about__subtitle">Junior Frontend Developer</span>
+          <p class="about__text">
+            Age: 21 <br>
+            Location: Batumi, Georgia <br>
+            English: B1 - B2 <br>
+            <br>
+            Looking forward to hear from you!
+          </p>
+          <a href="#footer" class="about__button">Contact me</a>
+        </div>
+      </div>
+
+      <div class="skills" id='skills'>
+        <h2 class="skills__title title">Skills & Education</h2>
+        <p class="skills__info">
+          At the moment I'am studying at The Rolling Scopes School <a class='school-link'
+            href='https://rs.school/'>(learn more)</a>.
+          All the materials and tasks I get there, I find really helpful. And challenging too. I don't feel confident
+          about my skills yet, but I feel that I'm making progress, and I'm hopeful about my future after studies.
+          Here is what I've learned so far:
+          <br><br>
+          Tech Stack: HTML5, CSS, SASS, JavaScript, Markdown<br><br>
+          Tools: Figma, GitHub, WebPack<br>
+        </p>
+      </div>
+
+      <div class="projects-code-wrapper">
+
+        <div class="projects" id='projects'>
+
+          <h2 class="projects__title title">My projects</h2>
+
+          <div class="project">
+            <h3 class="project__title">1. Cozy House shelter site</h3>
+            <img src="./img/shelter.png" alt="shelter site" class="project__img">
+            <p class="project__desc">
+              Adaptive layout, vanilla JavaScript<br>
+              Deploy:<br>
+              Sources:
+            </p>
+          </div>
+
+          <div class="project">
+            <h3 class="project__title">2. Virtual Keyboard</h3>
+            <img src="./img/keyboard.png" alt="virtual keyboard" class="project__img">
+            <p class="project__desc">
+              Virtual keyboard developed with vanilla JavaScript<br>
+              Deploy:<br>
+              Sources:
+            </p>
+          </div>
+
+        </div>
+
+        <div class="code" id='code'>
+          <h2 class="code__title title">Code example</h2>
+          <pre><code>/*
+Given two shuffled arrays with almost identical
+values, except for one integer is missing in
+one of them.
+This function returns the missing integer.
+*/
+            
+function findMissing(arr1, arr2) {
+  let longArr = [];
+  let shortArr = [];
+            
+  if (arr1.length > arr2.length){
+    longArr = arr1;
+    shortArr = arr2;
+  } else {
+  longArr = arr1;
+  shortArr = arr2;
+  }
+            
+  shortArr.map((number) => {
+    longArr.splice(longArr.indexOf(number), 1);
+  })
+            
+  return longArr[0];
+}       </code>
+        </pre>
+        </div>
+
+      </div>
+
+      <div class="contacts">
+        <h2 class="contacts__title title">CONTACT ME:</h2>
+        <p class="contacts__info">
+        <ul>
+          <li id='email'>e-mail: sandra44dev@gmail.com</li>
+          <li id='discord'>discord: sandra44dev#7839</li>
+          <li id='github'><a href="https://github.com/sandra44dev">github: sandra44dev</a></li>
+        </ul>
+        <span class="click">click to copy or visit my GitHub</span>
+        </p>
+      </div>
+
+    </main>
+
+    <footer class="footer" id='footer'>
+
+      <div>
+        <a href='https://rs.school/js'><img src="./img/rs-logo.svg" alt="RS School" class='logo'></a>
+        <p>(c) 2022 <a href='https://github.com/sandra44dev'> sandra44dev </a></p>
+      </div>
+
+    </footer>
+
+  </div>
+
+  <script>
+
+  </script>
+
+</body>
+
+</html>

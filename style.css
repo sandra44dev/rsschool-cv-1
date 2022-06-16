@@ -1,0 +1,203 @@
+@import url("./normalize.css");
+
+body {
+  color: #3c3c3c;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+
+.wrapper {
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.title {
+  color: rgb(32, 32, 32);
+  margin: 40px 0 20px 0;
+  font-size: 20px;
+}
+
+.header__title {
+  min-width: 310px;
+  margin: 15px 0;
+}
+
+.nav {}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  font-size: 15px;
+  line-height: 50px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+.links__item {
+  padding: 0 2%;
+  user-select: none;
+}
+
+.links__item:hover {
+  color: black;
+  text-shadow: 0px 0px 5px rgb(249, 195, 206);
+  cursor: pointer;
+}
+
+.links__item:active {
+  text-shadow: 0px 0px 2px rgb(255, 194, 206);
+}
+
+.main {}
+
+.about {
+  display: flex;
+  margin: 17px 0 0 0;
+  background-color: rgba(229, 212, 210, 0.436);
+}
+
+.avatar {
+  height: 300px;
+  display: block;
+}
+
+.about__info {
+  width: 90%;
+  margin: 30px 5% 0 5%;
+}
+
+.about__title {
+  margin: 15px 0 0 0;
+}
+
+.about__subtitle {
+  font-size: 14px;
+}
+
+.about__text {}
+
+.about__button {
+  text-decoration: none;
+  display: flex;
+  width: 150px;
+  height: 35px;
+  background-color: #fefefe;
+  color: rgb(25, 25, 25);
+  justify-content: center;
+  align-items: center;
+}
+
+.about__button:hover {
+  box-shadow: 0px 0px 10px rgb(137, 124, 127);
+}
+
+.skills {
+  padding: 17px 0 0 0;
+}
+
+.skills__title {}
+
+.skills__info {}
+
+.school-link {
+  font-size: 0.9em;
+  color: #3c3c3ca7;
+}
+
+.projects-code-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects {
+  width: 45%;
+}
+
+.project {
+  padding-bottom: 10px;
+}
+
+.project__title {
+  font-size: 15px;
+}
+
+.project__img {
+  width: 330px;
+}
+
+.project__desc {
+  font-size: 15px;
+}
+
+.skills__info {}
+
+.code {
+  width: 45%;
+}
+
+.code__title {}
+
+.contacts {
+  padding: 80px 30px 60px 30px;
+  margin: 30px 0 0 0;
+  border-top: 1px solid #3c3c3c;
+}
+
+.contacts__title {
+  font-size: 48px;
+  margin: 20px 0;
+}
+
+.contacts__info {}
+
+#github,
+#email,
+#discord {
+  list-style-type: square;
+  line-height: 40px;
+}
+
+#github:hover,
+#email:hover,
+#discord:hover {
+  color: black;
+  text-shadow: 0px 0px 5px rgb(249, 195, 206);
+  cursor: pointer;
+}
+
+.click {
+  font-size: 0.9em;
+  color: #3c3c3ca7;
+  user-select: none;
+}
+
+.footer {
+  height: 100px;
+  width: 350px;
+  margin: 0 auto;
+  background-color: rgba(234, 202, 162, 0.238);
+  padding: 40px 0;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  border-top-left-radius: 1000px;
+  border-top-right-radius: 1000px;
+}
+
+.footer a {
+  text-decoration: underline;
+}
+
+.logo {
+  width: 180px;
+}
