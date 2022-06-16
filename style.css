@@ -110,8 +110,8 @@ body {
 .skills__info {}
 
 .school-link {
-  font-size: 0.7em;
-  color: #3c3c3c62;
+  font-size: 0.9em;
+  color: #3c3c3ca7;
 }
 
 .projects-code-wrapper {
@@ -136,7 +136,7 @@ body {
 .code__title {}
 
 .contacts {
-  padding: 80px 30px;
+  padding: 80px 30px 60px 30px;
   margin: 30px 0 0 0;
   border-top: 1px solid #3c3c3c;
 }
@@ -148,17 +148,25 @@ body {
 
 .contacts__info {}
 
+#github,
 #email,
 #discord {
   list-style-type: square;
   line-height: 40px;
 }
 
+#github:hover,
 #email:hover,
 #discord:hover {
   color: black;
   text-shadow: 0px 0px 5px rgb(249, 195, 206);
   cursor: pointer;
+}
+
+.click {
+  font-size: 0.9em;
+  color: #3c3c3ca7;
+  user-select: none;
 }
 
 .footer {
