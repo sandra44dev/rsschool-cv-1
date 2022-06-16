@@ -19,6 +19,7 @@ body {
 }
 
 .title {
+  color: rgb(32, 32, 32);
   margin: 15px 0;
   font-size: 20px;
 }
@@ -130,11 +131,31 @@ body {
 
 .code__title {}
 
+.contacts {
+  padding: 80px 30px;
+  margin: 30px 0 0 0;
+  border-top: 1px solid #3c3c3c;
+}
+
+.contacts__title {
+  font-size: 48px;
+}
+
+.title {}
+
+.contacts__info {}
+
 .footer {
   height: 100px;
-  background-color: rgba(234, 201, 162, 0.634);
-  padding: 30px;
+  width: 350px;
+  margin: 0 auto;
+  background-color: rgba(234, 202, 162, 0.238);
+  padding: 40px 0;
   font-size: 16px;
+  display: flex;
+  justify-content: center;
+  border-top-left-radius: 1000px;
+  border-top-right-radius: 1000px;
 }
 
 .footer a {
@@ -142,5 +163,5 @@ body {
 }
 
 .logo {
-  width: 200px;
+  width: 180px;
 }
