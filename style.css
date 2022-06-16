@@ -123,9 +123,21 @@ body {
   width: 45%;
 }
 
-.projects__title {}
+.project {
+  padding-bottom: 10px;
+}
 
-.title {}
+.project__title {
+  font-size: 15px;
+}
+
+.project__img {
+  width: 330px;
+}
+
+.project__desc {
+  font-size: 15px;
+}
 
 .skills__info {}
 
